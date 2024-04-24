@@ -1,2 +1,8 @@
 # N_days_of_Leetcode
-:) as the name denotes, this repo's 'bout daily Leetcode!
+
+## Intro
+Daily Leetcode:v hopefully i could maintain it,
+and "N days" implies no foreseen ending.
+
+## Path
+- [ ] Leetcode 75 (Day 0 - ?)
