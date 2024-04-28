@@ -1,1 +1,3 @@
 Array/String
+
+note: can_place_flower
