@@ -13,4 +13,8 @@ and "N days" implies no foreseen ending.
 - Update #1 8/6/2024: meh, Challenge failed 🙂 but spirit is still going on 🙂 I'll keep up from now.
 
 ## Memos
-- Try Prefix Sum + Hashmap for Subarray-related problem.
+- #1: Try Prefix Sum + Hashmap for Subarray-related problems:
+    - Count subarr with some condition
+    - Find max length subarr with some condition
+    - Check if subarray exists with some given condition
+    - Cre: [mercer80](https://leetcode.com/u/mercer80/)
