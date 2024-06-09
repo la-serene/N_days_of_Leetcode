@@ -12,6 +12,9 @@ and "N days" implies no foreseen ending.
 ## Update
 - Update #1 8/6/2024: meh, Challenge failed 🙂 but spirit is still going on 🙂 I'll keep up from now.
 
+## Structure (updating...)
+- For such problems with specific pattern (like the one mentioned in memo#1), I will create a thread to delve deeper in the topic. Thread is stored in original `content.txt` file in corresponding day and will be renamed to `content_thread.txt`.
+
 ## Memos
 - #1: Try Prefix Sum + Hashmap for Subarray-related problems:
     - Count subarr with some condition
