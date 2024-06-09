@@ -17,4 +17,4 @@ and "N days" implies no foreseen ending.
     - Count subarr with some condition
     - Find max length subarr with some condition
     - Check if subarray exists with some given condition
-    - Cre: [mercer80](https://leetcode.com/u/mercer80/)
+    - Cre: [mercer80](https://leetcode.com/problems/continuous-subarray-sum/solutions/5276981/prefix-sum-hashmap-patterns-7-problems/)
