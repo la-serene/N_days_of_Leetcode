@@ -9,4 +9,3 @@ sum divisible by k.
 A subarray is a contiguous part of an array.
 """
 
-# Day 47
