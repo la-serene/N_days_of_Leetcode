@@ -11,3 +11,6 @@ and "N days" implies no foreseen ending.
 
 ## Update
 - Update #1 8/6/2024: meh, Challenge failed 🙂 but spirit is still going on 🙂 I'll keep up from now.
+
+## Memos
+- Try Prefix Sum + Hashmap for Subarray-related problem.
