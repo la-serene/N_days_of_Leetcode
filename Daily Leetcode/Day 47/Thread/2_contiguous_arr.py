@@ -7,3 +7,6 @@ Given a binary array nums, return the maximum length of a contiguous subarray wi
 """
 
 
+
+s = Solution()
+s.findMaxLength([0, 0, 1, 0, 0, 0, 1, 1])
