@@ -1,7 +1,7 @@
-# Definition for a binary tree node.
 from typing import List, Optional
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -11,23 +11,26 @@ class TreeNode:
 
 class Solution:
     def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:
-        children_set = []
+        children_set = {}
         children_hashmap = {}
 
         for parent, child, isLeft in descriptions:
             if children_hashmap.get(parent, -1) == -1:
                 children_hashmap[parent] = TreeNode(parent)
 
+            if children_hashmap.get(child, -1) == -1:
+                children_hashmap[child] = TreeNode(child)
+
             if isLeft == 1:
-                children_hashmap[parent].left = child
+                children_hashmap[parent].left = children_hashmap[child]
             else:
-                children_hashmap[parent].right = child
+                children_hashmap[parent].right = children_hashmap[child]
 
-            if child not in children_set:
-                children_set.append(child)
+            if children_set.get(child, 0) == 0:
+                children_set[child] = 1
 
-        for parent, child, isLeft in descriptions:
-            if parent not in children_set:
+        for parent, _, _ in descriptions:
+            if children_set.get(parent, 0) == 0:
                 return children_hashmap[parent]
 
 
