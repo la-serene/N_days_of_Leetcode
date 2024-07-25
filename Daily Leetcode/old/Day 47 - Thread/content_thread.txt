@@ -4,3 +4,4 @@ Follow the memos#1 in README, today (9/6 and early 10/6) will work on the Prefix
 topic.
 
 From this thread, a new solution for day 45 problem has been developed.
+Cre: https://leetcode.com/problems/continuous-subarray-sum/solutions/5276981/prefix-sum-hashmap-patterns-7-problems/
